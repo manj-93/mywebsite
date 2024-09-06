@@ -1,9 +1,7 @@
 body {
-    background-color: rgb(146, 147, 156);
+    background-color: rgb(0, 0, 0);
 }
-    /* img {
-    border: 2px solid #040404;
-  }  */
+
 
   .rounded-border {
     width: 720px; 
@@ -17,101 +15,175 @@ body {
     height: 200px; 
     overflow: hidden; 
     position: relative; 
-    border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 50%;
+    justify-content: center;
+    margin:auto;
 }
 
 .image-container img {
     width: 100%; 
     height: 100%; 
-    object-fit: cover; 
+    object-fit: cover;
+     
 }
 
 
-h1 {
+h1 { /* header */
     font-size: 50px;
     font-family: 'Roboto', sans-serif; 
-    font-weight: 200; 
+    font-weight: 450; 
+    text-align: center;
+    color: rgba(123, 11, 228, 0.277);
+    display: inline-block;
+    border: 4px rgb(255, 255, 255)
+}
+
+.whiteBorder {
+    color: rgb(0, 0, 0);
+    text-align: center;  
+    font-size: 48px; 
+    font-weight: bold;
+    text-shadow: 
+        1px 1px 0 rgba(255, 255, 255, 0.7),
+        -1px 1px 0 rgba(255, 255, 255, 0.7),
+        1px -1px 0 rgba(255, 255, 255, 0.7),
+        -1px -1px 0 rgba(255, 255, 255, 0.7),
+        1px 0 0 rgba(255, 255, 255, 0.7),
+        -1px 0 0 rgba(255, 255, 255, 0.7),
+        0 1px 0 rgba(255, 255, 255, 0.7),
+        0 -1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.headingContainer {
     text-align: center;
 }
 
-h2 {
+h2 { /* second line */
     font-size: 25px;
     font-family: 'Roboto', sans-serif; 
-    font-weight: 200;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 2em;
+    color: #7033ff63;
 }
 
-h3 {
+h3 { /*links to my work */
     font-size: 20px;
     font-family: 'Roboto', sans-serif; 
-    font-weight: 200; 
-    text-align: center;
+    font-weight: 800;
+    text-align: left;
+    color: aliceblue;
 }
 
-a {
+a { /*links */
     font-family :'Roboto', sans-serif;
     font-size: 20px;
-    text-decoration: underline ;
+    text-decoration: none ;
     color: rgb(0, 0, 0);
     font-weight: 100;
 }
+
 .item1{
-    color: rgb(0, 0, 0);
+    color: rgba(141, 46, 225, 0.537);
+    font-weight: 700;
 }
 .item2{
     color: #3a3a3a;
+    font-weight: 700
 }
 .item3{
     color: #545454;
+    font-weight: 700;
 }
 .item4{
     color: rgb(199, 201, 202);
+    font-weight: 700;
 }
 
-ol {
-    li {
-        margin-left: 10px;
-    }
+.firstItem { /* boiler room */
+    color: rgba(20, 71, 224, 0.502);
+    font-weight: 800;
 }
 
-  html{
-    background-color: rgb(146, 147, 156);
+.secondItem { /*sigil*/
+    font-weight: 600;
+    color:rgba(184, 84, 255, 0.677)
+}
+
+ol li {
+     
+    margin-left: 30px;
+    padding: 10px;
+    
+}
+
+
+ul li {
+    padding: 10px;
+}
+
+
+.gridWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100% 
   }
-  .container{
-    margin: 20px auto;
+
+ .container{
+    align-items: center;
     width:400px;
     height:400px;
-    background-color:rgb(146, 147, 156);
+    background-color:rgb(0, 0, 0);
     display:grid;
-    grid-template-columns: 350px 350px;
+    grid-template-columns: 400px 400px;
     grid-row: auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    .box{
-      background-color:rgb(146, 147, 156);
-      padding: 20px;
-      border-radius:10px;
-      color:#000000;
-      display:flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    
+}
+
+.box{
+      background-color:rgb(222, 225, 255);
+      padding: 4px;
+      border-radius: 20px;
       align-items:center;
       justify-content:center;
-      font-size:40px;
-      font-family:sans-serif;
-    }
-  
-  }
+      font-size: 40px;
+      font-family: sans-serif;
+}
+
+
 
   .box img {
     max-width: 100%; 
     max-height: 100%; 
     object-fit: cover;
+    justify-content: center;
+    align-items: center;
   }
   .pngared{
     transform: rotate(-90deg);
+    border-radius: 20px;
+    align-items: center;
   }
 
+  .pngaPurple {
+    border-radius: 20px;
+    align-items: center
+  }
+
+.rinseFm {
+    border-radius: 20px;
+    align-items: center
+}
+
+.ministryOfSound {
+    border-radius: 20px;
+    align-items: center
+}
   /* .image-container1 {
     width: 200px; 
     height: 200px; 
@@ -126,3 +198,4 @@ ol {
     height: 100%; 
     object-fit: cover; 
 } */
+
